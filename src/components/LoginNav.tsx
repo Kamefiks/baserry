@@ -17,7 +17,7 @@ const LoginNav = () => {
         onClick={() => navigate("register")}
         className="bg-transparent text-black w-[100px] h-[80%] rounded-full text-[16px] font-medium hover:bg-gray-100 transition-colors"
       >
-        Zajerestruj
+        Zarejestruj
       </button>
     </div>
   );

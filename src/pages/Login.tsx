@@ -60,7 +60,7 @@ const Login = () => {
                 onClick={() => navigate("/register")}
                 className="font-medium text-[#141414] cursor-pointer"
               >
-                Zajerestruj się
+                Zarejestruj się
               </span>
             </p>
             <div className="pt-[9%] flex flex-col">

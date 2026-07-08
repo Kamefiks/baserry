@@ -8,19 +8,19 @@ const Main = () => {
     <div className="w-full flex-col relative h-full flex">
       <div className="absolute z-10 w-full h-[98.5%] bg-[#ffffff0f] backdrop-blur-[50px]"></div>
       <div className="relative z-20 w-full flex-col text-center items-center flex mt-[12%]">
-        <p className="text-[54px] font-primary font-bold">
+        <p className="sm:text-[54px] text-[32px] font-primary font-bold">
           Zarządzanie danymi, bez chaosu.
         </p>
-        <p className="text-[24px] leading-6 mt-[2%] font-secondary font-light">
+        <p className="sm:text-[24px] text-[16px] leading-6 mt-[2%] font-secondary font-light">
           Działania na bazie danych za pomocą prostych poleceń.
         </p>
-        <p className="text-[24px] font-secondary font-light">
+        <p className="sm:text-[24px] text-[16px] font-secondary font-light">
           Z nami, wszystko jest dla Twojej wygody.
         </p>
         <motion.button
           whileTap={{ scale: 0.95 }}
           whileHover={{ width: "200px" }}
-          onClick={() => navigate("/dashboard")}
+          onClick={() => navigate("/login")}
           style={{
             boxShadow: "inset 0 3px 8px rgba(255, 255, 255, 0.4)",
           }}
