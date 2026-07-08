@@ -1,0 +1,52 @@
+{
+  "name": "vite-starter-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@fontsource/instrument-sans": "^5.2.6",
+    "@fontsource/inter": "^5.2.6",
+    "@mui/material": "^6.1.6",
+    "@mui/x-charts": "^7.22.2",
+    "@supabase/supabase-js": "^2.46.1",
+    "@tailwindcss/vite": "^4.1.10",
+    "@tanstack/react-query": "^5.59.16",
+    "@vapi-ai/web": "^2.1.4",
+    "framer-motion": "^11.11.17",
+    "lucide-react": "^0.516.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "react-tooltip": "^6.0.8",
+    "reactflow": "^11.11.4",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@tailwindcss/postcss": "^4.1.10",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.13.0",
+    "@typescript-eslint/parser": "^8.13.0",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.14.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.12.0",
+    "postcss": "^8.5.5",
+    "tailwindcss": "^4.1.10",
+    "tailwindcss-animate": "^1.0.7",
+    "tailwindcss-cli": "^0.1.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}
