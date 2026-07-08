@@ -118,7 +118,7 @@ const Register = () => {
           </div>
         </div>
 
-        <div className="w-[45%] max-h-screen min-h-screen flex flex-col">
+        <div className="w-[45%] sm:visible invisible hidden max-h-screen min-h-screen sm:flex flex-col">
           <img
             src="Gradient2.webp"
             className=" w-full h-full object-cover"

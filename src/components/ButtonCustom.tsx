@@ -19,7 +19,7 @@ const ButtonEditNote = ({
     <motion.div
       onClick={() => action()}
       style={{ width: `${width}`, height: `${height}` }}
-      className="bg-[#000000] border-[0.5px] cursor-pointer border-white rounded-[15px] relative items-end flex "
+      className="bg-[#000000] w-[100%] border-[0.5px] cursor-pointer border-white rounded-[15px] relative items-end flex "
     >
       <motion.div
         animate={{ backgroundColor: ["#ff008c", "#0059ff", "#00aeff"] }}
