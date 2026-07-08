@@ -20,7 +20,7 @@ const Input = ({
   };
   return (
     <div
-      className={`bg-[#FBFBFB] w-[100%] border-[1px]  gap-[1.5%]  border-[#D3D3D3] rounded-[14px]  flex items-center pl-[1%] ${
+      className={`bg-[#FBFBFB] w-[90%] border-[1px]  gap-[1.5%]  border-[#D3D3D3] rounded-[14px]  flex items-center pl-[1%] ${
         type === "Hasło" && action == "register" ? "sm:w-[100%]" : "sm:w-[55%]"
       }`}
     >
