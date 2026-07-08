@@ -79,7 +79,7 @@ const Register = () => {
                 onChange={setEmail}
               ></Input>
             </div>
-            <div className="flex sm:w-[55%] gap-[1%] sm:gap-[3%]">
+            <div className="flex sm:w-[55%] w-[90%] gap-[3%]">
               <div className="pt-[2%] w-full flex flex-col">
                 <p className="text-[16px] pb-[5px]">Hasło</p>
                 <Input
