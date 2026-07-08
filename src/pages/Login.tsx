@@ -48,7 +48,7 @@ const Login = () => {
   return (
     <div className="w-full h-full flex-col flex  ">
       <div className="w-full flex h-full">
-        <div className="flex w-[65%]  h-full flex-col">
+        <div className="flex sm:w-[65%] w-[100%]  h-full flex-col">
           <Nav withLogin={false}></Nav>
           <div className="pl-[7%] pt-[5%] h-full flex-col flex w-full">
             <p className="font-primary text-[53px] font-bold">
